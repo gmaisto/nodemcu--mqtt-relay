@@ -1,1 +1,1 @@
-# nodemcu--mqtt-relay
+# nodemcu-mqtt-relay
