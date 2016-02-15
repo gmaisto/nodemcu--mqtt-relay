@@ -2,11 +2,13 @@
 local module = {}
 
 module.SSID = {}  
-module.SSID["YOUR_WIFI_SSID"] = "YOUR_WIFI_PASSWORD"
+module.SSID["FamilyGate2"] = "Fra31Pre89T"
 
 module.HOST = "192.168.2.37"  
 module.PORT = 1883  
 module.ID = node.chipid()
 
-module.ENDPOINT = "fgdata"  
+module.ENDPOINT = "fgdata"
+module.STATUSENDPOINT = "light1"
+  
 return module  
